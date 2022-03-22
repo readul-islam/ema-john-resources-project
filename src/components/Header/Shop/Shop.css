@@ -15,7 +15,7 @@
 }
 
 .cart-container{
-    background-color: rgba(255, 153, 0, 0.3);
+    background-color: #ff99009a;
    
 
 height: 995px;
@@ -24,12 +24,12 @@ margin-left: 90px;
 
 }
 .cart-icon{
-   font-size: 40px;
+   font-size: 35px;
    margin-top: 30px;
    margin-left: 140px;
     display: flex;
     align-items:center;
-    justify-content: space between
+    
    
   
 }
@@ -49,5 +49,6 @@ margin-left: 90px;
     .product-info h3{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
+       
         
     }

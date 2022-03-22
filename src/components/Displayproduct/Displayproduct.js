@@ -19,8 +19,8 @@ const Displayproduct = ({ product,handler }) => {
       <p>Rating: {ratings} star</p>
      </div>
       </div>
-      <button onClick={()=>{handler(product)}}  className='button-cart'>      <p>Add to Cart</p>
-      <span className="cart-icon"><FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></span>
+      <button onClick={()=>{handler(product)}}  className='button-cart'>      <span>Add to Cart</span>
+      <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
       </button>
       
     </div>
