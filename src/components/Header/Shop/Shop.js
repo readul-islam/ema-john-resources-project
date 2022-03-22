@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faArrowRightToCity, faSackDollar, faShoppingBag, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import {   faSackDollar,  faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import Cartdetails from "../../Cartdetails/Cartdetails";
 import Displayproduct from "../../Displayproduct/Displayproduct";
 import "./Shop.css";
