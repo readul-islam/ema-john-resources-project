@@ -1,0 +1,53 @@
+.shop-container{
+ display:grid;
+ grid-template-columns: 4fr 1fr;
+
+
+   
+}
+.products-container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 88px;
+    margin: 51px 20px 0 282px;
+   
+}
+
+.cart-container{
+    background-color: rgba(255, 153, 0, 0.3);
+   
+
+height: 995px;
+margin-left: 90px;
+
+
+}
+.cart-icon{
+   font-size: 40px;
+   margin-top: 30px;
+   margin-left: 140px;
+    display: flex;
+    align-items:center;
+    justify-content: space between
+   
+  
+}
+#dollar-bag{
+    position: relative;
+}
+#sup{
+    position: absolute;
+}
+.shop-cart{
+    margin-left: 50px;
+}
+.product-info{
+    margin: 20px 10px 0 25px;
+    }
+
+    .product-info h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        
+    }
